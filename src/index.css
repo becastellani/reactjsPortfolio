@@ -2,7 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(50, 50, 50);
+
 }
+html, body {
+  overflow-x: hidden;
+}
+@media (min-width: 768px) {
+  *{
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    font-family: Sen;
+    font-size: 40px;
+    color: white;
+  }
 .container{
   color:#ffffff;
   display: flex;
@@ -11,8 +27,22 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+
 }
+.container3{
+  color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(50, 50, 50);
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  font-size: 54px;
+  font-family: Sen;
+  font-weight: 900;
+
+}
+
 .nomeprincipal {
   color:#ffffff;
   font-size:64px;
@@ -39,29 +69,178 @@
   align-items: center; 
 }
 
+/*Sobre*/
+.container2 {
+  color: #ffffff;
+  display: grid;
+  background-color: rgb(50, 50, 50);
+  width: 100vw;
+  height: 100%auto;
+}
 
-.linkedinicon
-{
-height:90px;
-width:88px;
-left:592px;
-top:451px;
-position:absolute;
+.imagem img {
+  width: 300px;
+  height: 300px;
+  margin-left: 180px;
 }
-.instaicon
-{
-height:83px;
-width:84px;
-left:702px;
-top:458px;
-position:absolute;
+
+#textoSobre h1 {
+  font-family: Sen;
+  text-align: center;
+  margin-right: 20px;
+  font-weight: 900;
+  font-size: 40px;
 }
-.giticon
-{
-height:83px;
-width:81px;
-left:489px;
-top:458px;
-position:absolute;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  font-family: Sen;
+  padding: 20px;
+  font-size: 26px;
+  text-align: justify;
+  margin-top: 13PX;
+  margin-right: 30px;
+}
+
+
+.p-3 {
+  padding: 2rem!important;
+}
+.p-4 {
+  padding: 5rem!important;
+}
+
+
+.carousel-container{
+  background-color: rgb(50, 50, 50);
+  margin: 0;
+ }
+
+.alice-carousel:hover {
+  cursor: pointer;
+}
+
+}
+
+/*TELAS MENORES*/
+@media (max-width: 767px) {
+    *{
+      padding: 0;
+      box-sizing: border-box;
+    
+  }
+  .container{
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 50, 50);
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .container3{
+    padding: 20px;
+    color:#ffffff;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(50, 50, 50);
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    font-size: 30px;
+    font-family: Sen;
+    font-weight: 900;
+    overflow-x: hidden;
+    text-align: center;
+  }
+  .container2 {
+    color: #ffffff;
+    display: grid;
+    background-color: rgb(50, 50, 50);
+    width: 100vw;
+    height: 100%auto;
+  }
+  .nomeprincipal {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .estudante {
+    font-size: 20px;
+  }
+
+  #linha-imagem {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .imagem img {
+    width: 300px;
+    height: 300px;
+  }
+  .imagem {
+    display: flex;
+    justify-content: center;
+  }
+
+  #textoSobre h1 {
+    font-family: Sen;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center; /* adicionado para centralizar o texto */
+}
+
+#textoSobre{
+  width: 100%;
+background-color: rgb(50, 50, 50);
+}
+  
+  
+
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+
+  }
+
+  .grid-item {
+    text-align: justify;
+    font-size: 16px;
+    font-family: Sen;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .p-3 {
+    padding: 1rem!important;
+  }
+
+  .p-4 {
+    padding: 2rem!important;
+  }
+
+  
+ skillsH1 h1{
+  font-family: Sen;
+  font-weight: 900;
+  font-size: 40px;
+ }
+.carousel-container{
+  background-color: rgb(50, 50, 50);
+ }
+ h1 {
+  text-align: center;
+  font-family: Sen;
+  font-size: 28px;
+  color: white;
+}
 }
 

@@ -6,17 +6,12 @@ import Logo2 from './img/linkedinIcon.png'
 function Inicio (){
         return (
     <div>
+        <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet"></link>
     <div class='container' id='container'>
-            <p id='nomeprincipal' class='nomeprincipal'>Bernardo Castellani</p>
-            <p id='estudante' class='estudante'>Estudante de Engenharia de Software</p>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <div id='linha-imagem'>
-        <img src={Logo}/> 
-        <img src={Logo1}></img>
-        <img src={Logo2} ></img>
+        <div id='linha-imagem'>
+        <a href="https://www.instagram.com/bernardo_castell/"><img src={Logo}/></a>
+        <a href="https://github.com/becastellani"><img src={Logo1}></img></a>
+        <a href="https://www.linkedin.com/in/bernardo-castellani-b515a0203/"><img src={Logo2} ></img></a>
             </div>  
         
     </div>

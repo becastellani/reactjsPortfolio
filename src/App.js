@@ -10,6 +10,7 @@ import Minhasskills from './components/Minhasskills'
 import Carousel from './components/Carousel';
 import Repositories from './components/Repositories';
 import Footer from './components/Footer'
+import Certifi from './components/Certifi';
 
 function App() {
   const texto = [ 'Bernardo Castellani']
@@ -24,6 +25,8 @@ function App() {
       <Inicio />
       <Sobre />
       <Carousel />
+      <div class="p-4"></div>
+      <Certifi />
       <Repositories />
       <Footer />
       </nav>

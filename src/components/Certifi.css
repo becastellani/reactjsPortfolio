@@ -1,0 +1,58 @@
+.ContainerPai {
+    display: flex;
+    justify-content: center;
+  }
+.CertificationsContainer {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6), 0 20px 15px -3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .CertificationsList {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .CertificationsList li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 0.5px solid #ccc;
+    font-family: Sen;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .CertificationYear {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .CertificationName {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  
+  .CertificationLocation {
+    font-style: italic;
+    color: #999;
+    font-weight: 900;
+    font-family: Sen;
+  }
+
+  h2{
+    text-align: center;
+    font-family: Sen;
+    color: white;
+    font-size: 30px;
+  }

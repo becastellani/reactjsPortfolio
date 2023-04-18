@@ -83,6 +83,7 @@ html, body {
   display: flex;
   justify-content: space-between; 
   align-items: center; 
+  margin-right: 140px;
 }
 
 /*Sobre*/
@@ -249,6 +250,7 @@ footer {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 40px;
   }
 
   .imagem img {

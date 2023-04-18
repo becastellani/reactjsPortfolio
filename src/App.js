@@ -8,6 +8,8 @@ import Typewritersecond from './components/Typewritersecond';
 import Nome from './components/Nome'
 import Minhasskills from './components/Minhasskills'
 import Carousel from './components/Carousel';
+import Repositories from './components/Repositories';
+import Footer from './components/Footer'
 
 function App() {
   const texto = [ 'Bernardo Castellani']
@@ -22,9 +24,11 @@ function App() {
       <Inicio />
       <Sobre />
       <Carousel />
+      <Repositories />
+      <Footer />
       </nav>
     </div>
   );
-}
 
+}
 export default App;

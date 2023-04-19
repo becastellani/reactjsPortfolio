@@ -12,9 +12,10 @@ function Inicio (){
         <div id='linha-imagem'>
         <a href="https://www.instagram.com/bernardo_castell/"><img src={Logo}/></a>
         <a href="https://github.com/becastellani"><img src={Logo1}></img></a>
-        <a href=""><img src={Logo2} ></img></a>
-        <a href=""><img src={Logo3} ></img></a>
-        <a href=""><img src={Logo4} ></img></a>
+        <a href="https://www.linkedin.com/in/bernardo-castellani-b515a0203/"><img src={Logo2} ></img></a>
+        
+        <a href="https://api.whatsapp.com/send/?phone=%2B5519999050946&text&type=phone_number&app_absent=0"><img src={Logo3} ></img></a>
+        <a href="mailto:becastellani10@gmail.com?subject=Portifolio&body=" target="_blank"><img src={Logo4} ></img></a>
             </div>  
         
     </div>
